@@ -10,7 +10,7 @@
     <body>
       <nav>
             <a href="http://first-news-app.readthedocs.org/">
-                <img src="{{ url_for('static', filename='irelogo.png') }}">
+                <img src="../static/irelogo.png">
             </a>
         </nav>
         <header>
@@ -70,7 +70,7 @@
                   };
                   var blackIcon = L.Icon.extend({
                       options: {
-                          iconUrl: "{{ url_for('static', filename='marker-24.png') }}",
+                          iconUrl: "../static/marker-24.png",
                           iconSize: [24, 24]
                       }
                   });
